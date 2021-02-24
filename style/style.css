@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/* Reset 시작 */
+*{
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a             {text-decoration: none;}
+a:link       {color: #333;}
+a:visited   {color: #333;}
+a:hover    {color: #333;}
+a:active    {color: #333;}
+/* Reset 끝 */
+
+
+
+/*GuideLine 시작*/
+
+/*GuideLine 끝*/
+
+
+
+
+/*div#wrap 시작 */
+div#wrap{
+    width: 970px;
+    margin: 0 auto;
+    border: 4px solid #88cdec;
+}
+
+
+/*div#wrap 끝 */
+
+
+/*header#header 시작 */
+
+/*   div#headerLogo 시작 */
+div#headerLogo{
+    width: 962px;
+    height: 280px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+}
+
+div#headerLogo h1{
+    color: #fdfe07;
+    font-size: 82px;
+    padding: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+/*   div#headerLogo 끝 */
+
+/*nav#gnb 시작*/
+nav#gnb{
+    padding-left: 10px;
+    background-color: #060;
+}
+
+nav#gnb li{
+    float: left;
+}
+
+nav#gnb ul::after{
+    content: "";
+    height: 56px;
+    display: inline-block;
+}
+
+nav#gnb a{
+    color: #fff;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+/*nav#gnb 끝*/
+
+
+
+
+
+/*header#header 끝 */
+
+
+
+/*main#main 시작*/
+
+main#main{
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+
+     justify-content: space-between;
+}
+
+
+  /*div#intro 시작 */
+#main div#intro{
+    width: 734px;
+}
+
+
+
+#main div#intro h2{
+    padding: 10px;
+}
+
+
+
+
+#main div#intro #introHashTag{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+#main div#intro #introHashTag~p{
+    padding: 8px 10px;
+}
+   /*div#intro 끝 */
+
+
+/*div#gallery 시작 */
+
+#main div#gallery{
+    width: 220px;
+   padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #e0fbdb;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+/*div#gallery 끝 */
+
+
+
+/*main#main 끝*/
+
+
+
+/*footer#footer 시작*/
+#footer{
+    background-color: #071f1f;
+    text-align: center;
+    height: 80px;
+}
+
+#footer address{
+    color: #fff;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+#footer #copyright{
+  color: #fff;
+ font-style: italic;
+    padding-top: 10px;
+}
+
+/*footer#footer 끝*/
+
+
+
+
+
+
+
+
+
+
